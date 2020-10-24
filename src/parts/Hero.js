@@ -49,7 +49,7 @@ export default function Hero(props){
                                 height="36"
                                 alt= {`numberFormat(props.data.travelers)} Travelers`}/>
                             <h6 className="mt-3">
-                                {numberFormat(props.data.travelers)}
+                                {numberFormat(props.data.travelers)}{" "}
                                 <span className="text-gray-500 font-weight-bold">travelers</span>
                             </h6>
                         </div>
